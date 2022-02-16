@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace HastaTakip
 {
@@ -41,9 +42,25 @@ namespace HastaTakip
             this.Close();
         }
 
-        private void languageSwi_CheckedChanged(object sender, EventArgs e)
+        
+
+        private void cikis_Load(object sender, EventArgs e)
         {
-            if (languageSwi.Checked == true)
+            Databaseconnection constr = new Databaseconnection();
+            string conStr = constr.ConSource();
+            SqlConnection connect2 = new SqlConnection(conStr);
+            string check2 = "Select * from language Where language='" + "1" + "'";
+            SqlCommand command2 = new SqlCommand(check2, connect2);
+
+            connect2.Open();
+
+            SqlDataReader reader = command2.ExecuteReader();
+            int count = 0;
+            while (reader.Read())
+            {
+                count++;
+            }
+            if (count == 1)
             {
                 acceptbutt.Text = "Evet";
                 cancelbutt.Text = "Hayır";

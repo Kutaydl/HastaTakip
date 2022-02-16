@@ -30,14 +30,14 @@ namespace HastaTakip
         private void InitializeComponent()
         {
             this.securityQuest = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.securityAnswer = new Guna.UI2.WinForms.Guna2TextBox();
             this.buttonAccept = new Guna.UI2.WinForms.Guna2Button();
             this.butonCancel = new Guna.UI2.WinForms.Guna2Button();
             this.labelSecure = new System.Windows.Forms.Label();
             this.textBoxMail = new Guna.UI2.WinForms.Guna2TextBox();
             this.labelMail = new System.Windows.Forms.Label();
             this.languageSwi = new Guna.UI2.WinForms.Guna2ToggleSwitch();
-            this.securityQuestEn = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.labelLang = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // securityQuest
@@ -64,32 +64,31 @@ namespace HastaTakip
             this.securityQuest.ShadowDecoration.Parent = this.securityQuest;
             this.securityQuest.Size = new System.Drawing.Size(240, 36);
             this.securityQuest.TabIndex = 0;
-            this.securityQuest.Visible = false;
             this.securityQuest.SelectedIndexChanged += new System.EventHandler(this.securityQuest_SelectedIndexChanged);
             // 
-            // guna2TextBox1
+            // securityAnswer
             // 
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.FocusedState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Location = new System.Drawing.Point(50, 126);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Size = new System.Drawing.Size(240, 20);
-            this.guna2TextBox1.TabIndex = 1;
+            this.securityAnswer.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.securityAnswer.DefaultText = "";
+            this.securityAnswer.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.securityAnswer.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.securityAnswer.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.securityAnswer.DisabledState.Parent = this.securityAnswer;
+            this.securityAnswer.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.securityAnswer.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.securityAnswer.FocusedState.Parent = this.securityAnswer;
+            this.securityAnswer.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.securityAnswer.ForeColor = System.Drawing.Color.Black;
+            this.securityAnswer.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.securityAnswer.HoverState.Parent = this.securityAnswer;
+            this.securityAnswer.Location = new System.Drawing.Point(50, 126);
+            this.securityAnswer.Name = "securityAnswer";
+            this.securityAnswer.PasswordChar = '\0';
+            this.securityAnswer.PlaceholderText = "";
+            this.securityAnswer.SelectedText = "";
+            this.securityAnswer.ShadowDecoration.Parent = this.securityAnswer;
+            this.securityAnswer.Size = new System.Drawing.Size(240, 20);
+            this.securityAnswer.TabIndex = 1;
             // 
             // buttonAccept
             // 
@@ -200,32 +199,19 @@ namespace HastaTakip
             this.languageSwi.UncheckedState.InnerColor = System.Drawing.Color.White;
             this.languageSwi.UncheckedState.Parent = this.languageSwi;
             this.languageSwi.CheckedChanged += new System.EventHandler(this.languageSwi_CheckedChanged);
+            this.languageSwi.MouseLeave += new System.EventHandler(this.languageSwi_MouseLeave);
+            this.languageSwi.MouseHover += new System.EventHandler(this.languageSwi_MouseHover);
             // 
-            // securityQuestEn
+            // labelLang
             // 
-            this.securityQuestEn.BackColor = System.Drawing.Color.Transparent;
-            this.securityQuestEn.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.securityQuestEn.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.securityQuestEn.DropDownWidth = 250;
-            this.securityQuestEn.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.securityQuestEn.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.securityQuestEn.FocusedState.Parent = this.securityQuestEn;
-            this.securityQuestEn.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.securityQuestEn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.securityQuestEn.HoverState.Parent = this.securityQuestEn;
-            this.securityQuestEn.ItemHeight = 30;
-            this.securityQuestEn.Items.AddRange(new object[] {
-            "The name of your first pet?",
-            "What is the name of your first teacher?",
-            "What is your first friend\'s name?",
-            "What is your first job?"});
-            this.securityQuestEn.ItemsAppearance.Parent = this.securityQuestEn;
-            this.securityQuestEn.Location = new System.Drawing.Point(50, 84);
-            this.securityQuestEn.Name = "securityQuestEn";
-            this.securityQuestEn.ShadowDecoration.Parent = this.securityQuestEn;
-            this.securityQuestEn.Size = new System.Drawing.Size(240, 36);
-            this.securityQuestEn.TabIndex = 9;
-            this.securityQuestEn.SelectedIndexChanged += new System.EventHandler(this.securityQuestEn_SelectedIndexChanged);
+            this.labelLang.AutoSize = true;
+            this.labelLang.BackColor = System.Drawing.Color.Transparent;
+            this.labelLang.Location = new System.Drawing.Point(12, 205);
+            this.labelLang.Name = "labelLang";
+            this.labelLang.Size = new System.Drawing.Size(55, 13);
+            this.labelLang.TabIndex = 9;
+            this.labelLang.Text = "Language";
+            this.labelLang.Visible = false;
             // 
             // hatalıGiris
             // 
@@ -233,19 +219,20 @@ namespace HastaTakip
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(340, 249);
-            this.Controls.Add(this.securityQuestEn);
+            this.Controls.Add(this.labelLang);
             this.Controls.Add(this.languageSwi);
             this.Controls.Add(this.labelMail);
             this.Controls.Add(this.textBoxMail);
             this.Controls.Add(this.labelSecure);
             this.Controls.Add(this.butonCancel);
             this.Controls.Add(this.buttonAccept);
-            this.Controls.Add(this.guna2TextBox1);
+            this.Controls.Add(this.securityAnswer);
             this.Controls.Add(this.securityQuest);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "hatalıGiris";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "hatalıGiris";
+            this.Load += new System.EventHandler(this.hatalıGiris_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -254,13 +241,13 @@ namespace HastaTakip
         #endregion
 
         private Guna.UI2.WinForms.Guna2ComboBox securityQuest;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox securityAnswer;
         private Guna.UI2.WinForms.Guna2Button buttonAccept;
         private Guna.UI2.WinForms.Guna2Button butonCancel;
         private System.Windows.Forms.Label labelSecure;
         private Guna.UI2.WinForms.Guna2TextBox textBoxMail;
         private System.Windows.Forms.Label labelMail;
         private Guna.UI2.WinForms.Guna2ToggleSwitch languageSwi;
-        private Guna.UI2.WinForms.Guna2ComboBox securityQuestEn;
+        private System.Windows.Forms.Label labelLang;
     }
 }

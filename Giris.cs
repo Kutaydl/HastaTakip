@@ -2,18 +2,25 @@
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
+using System.Text;
+using System.Data;
+using System.Data.SqlClient;
+using System.Data.Sql;
+
+
 
 namespace HastaTakip
 {
     public partial class Giris : Form
     {
+        
         int sayac = 0;
+
         public Giris()
         {
             InitializeComponent();
-            textBoxId.Focus();
-        }
-
+            textBoxId.Focus();            
+        }              
 
         private void exitbuttnor_MouseHover(object sender, EventArgs e)
         {
@@ -96,31 +103,66 @@ namespace HastaTakip
 
         private void buttonLogin_Click_1(object sender, EventArgs e)
         {
-            String[] Number = { "0", "1", "2" };
-            String[] Password = { "Kutay", "Emre", "Amir" };
+            sha256 encode = new sha256();
+            Databaseconnection constr = new Databaseconnection();
+            string plainData = textBoxPassword.Text;
+            string hashedData = encode.ComputeSha256Hash(plainData);
+            string conStr = constr.ConSource();
 
-            if (sayac < 5)
+            SqlConnection connect = new SqlConnection(conStr);
+            string check = "Select * from Kayit Where idNumber=@id and password=@pass";
+            SqlCommand command = new SqlCommand(check, connect);
+
+            command.Parameters.AddWithValue("@id", textBoxId.Text.Trim());
+            command.Parameters.AddWithValue("@pass", hashedData);
+
+            connect.Open();
+            SqlDataReader reader = command.ExecuteReader();
+
+            int count = 0;
+            while (reader.Read())
             {
-                if (((textBoxId.Text == Number[0]) && (textBoxPassword.Text == Password[0]))
-                    || ((textBoxId.Text == Number[1]) && (textBoxPassword.Text == Password[1]))
-                    || ((textBoxId.Text == Number[2]) && (textBoxPassword.Text == Password[2])))
+                try
                 {
-                    loading l1 = new loading();
-                    l1.Show();
-                    this.Hide();
-                }
-                else
-                {
-                    sayac++;
-                    labelWrong.Show();
-                    if (sayac == 5)
+                    if(connect.State == ConnectionState.Closed)
                     {
-                        labelCountdown.Show();
-                        labelWrong.Hide();
-                        timerCountdown.Start();
+                        connect.Open();
                     }
+                    count++;
+                }
+                catch
+                {
+                    count++;
+                }
+                
+            }
+            if (count == 1 || count > 1)
+            {
+                connect.Close();
+                loading l1 = new loading();
+                l1.Show();
+                this.Hide();
+               
+            }
+            else
+            {
+                textBoxId.Text = "";
+                textBoxPassword.Text = "";
+                connect.Close();
+                labelWrong.Show();
+                sayac++;
+                if(sayac == 5)
+                {
+                    labelCountdown.Show();
+                    labelWrong.Hide();
+                    timerCountdown.Start();
                 }
             }
+
+            
+
+
+
         }
 
         private void buttonSign_Click(object sender, EventArgs e)

@@ -49,6 +49,17 @@ namespace HastaTakip
             this.securityBox = new Guna.UI2.WinForms.Guna2ComboBox();
             this.labelSecure = new System.Windows.Forms.Label();
             this.secureAns = new Guna.UI2.WinForms.Guna2TextBox();
+            this.textBoxEmail = new Guna.UI2.WinForms.Guna2TextBox();
+            this.labelEmail = new System.Windows.Forms.Label();
+            this.labelcheck = new System.Windows.Forms.Label();
+            this.labelcheck1 = new System.Windows.Forms.Label();
+            this.labelcheck2 = new System.Windows.Forms.Label();
+            this.labelcheck3 = new System.Windows.Forms.Label();
+            this.labelcheck5 = new System.Windows.Forms.Label();
+            this.labelcheck6 = new System.Windows.Forms.Label();
+            this.labelcheck7 = new System.Windows.Forms.Label();
+            this.labelcheck8 = new System.Windows.Forms.Label();
+            this.labelLang = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // signInlabel
@@ -82,7 +93,7 @@ namespace HastaTakip
             // signPassword
             // 
             this.signPassword.AutoSize = true;
-            this.signPassword.Location = new System.Drawing.Point(47, 297);
+            this.signPassword.Location = new System.Drawing.Point(47, 337);
             this.signPassword.Name = "signPassword";
             this.signPassword.Size = new System.Drawing.Size(53, 13);
             this.signPassword.TabIndex = 7;
@@ -92,7 +103,7 @@ namespace HastaTakip
             // verifyPassword
             // 
             this.verifyPassword.AutoSize = true;
-            this.verifyPassword.Location = new System.Drawing.Point(47, 336);
+            this.verifyPassword.Location = new System.Drawing.Point(47, 376);
             this.verifyPassword.Name = "verifyPassword";
             this.verifyPassword.Size = new System.Drawing.Size(82, 13);
             this.verifyPassword.TabIndex = 8;
@@ -104,7 +115,7 @@ namespace HastaTakip
             this.notEqual.AutoSize = true;
             this.notEqual.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.notEqual.ForeColor = System.Drawing.Color.Red;
-            this.notEqual.Location = new System.Drawing.Point(79, 375);
+            this.notEqual.Location = new System.Drawing.Point(79, 415);
             this.notEqual.Name = "notEqual";
             this.notEqual.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.notEqual.Size = new System.Drawing.Size(201, 17);
@@ -210,14 +221,14 @@ namespace HastaTakip
             this.textBoxSignPassword.ForeColor = System.Drawing.Color.Black;
             this.textBoxSignPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.textBoxSignPassword.HoverState.Parent = this.textBoxSignPassword;
-            this.textBoxSignPassword.Location = new System.Drawing.Point(50, 313);
+            this.textBoxSignPassword.Location = new System.Drawing.Point(50, 353);
             this.textBoxSignPassword.Name = "textBoxSignPassword";
             this.textBoxSignPassword.PasswordChar = '\0';
             this.textBoxSignPassword.PlaceholderText = "";
             this.textBoxSignPassword.SelectedText = "";
             this.textBoxSignPassword.ShadowDecoration.Parent = this.textBoxSignPassword;
             this.textBoxSignPassword.Size = new System.Drawing.Size(209, 20);
-            this.textBoxSignPassword.TabIndex = 5;
+            this.textBoxSignPassword.TabIndex = 7;
             this.textBoxSignPassword.UseSystemPasswordChar = true;
             this.textBoxSignPassword.TextChanged += new System.EventHandler(this.textBoxSignPassword_TextChanged);
             // 
@@ -236,14 +247,14 @@ namespace HastaTakip
             this.textBoxVerifyPassword.ForeColor = System.Drawing.Color.Black;
             this.textBoxVerifyPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.textBoxVerifyPassword.HoverState.Parent = this.textBoxVerifyPassword;
-            this.textBoxVerifyPassword.Location = new System.Drawing.Point(50, 352);
+            this.textBoxVerifyPassword.Location = new System.Drawing.Point(50, 392);
             this.textBoxVerifyPassword.Name = "textBoxVerifyPassword";
             this.textBoxVerifyPassword.PasswordChar = '\0';
             this.textBoxVerifyPassword.PlaceholderText = "";
             this.textBoxVerifyPassword.SelectedText = "";
             this.textBoxVerifyPassword.ShadowDecoration.Parent = this.textBoxVerifyPassword;
             this.textBoxVerifyPassword.Size = new System.Drawing.Size(209, 20);
-            this.textBoxVerifyPassword.TabIndex = 6;
+            this.textBoxVerifyPassword.TabIndex = 8;
             this.textBoxVerifyPassword.UseSystemPasswordChar = true;
             this.textBoxVerifyPassword.TextChanged += new System.EventHandler(this.textBoxVerifyPassword_TextChanged);
             // 
@@ -254,7 +265,7 @@ namespace HastaTakip
             this.checkBoxSign.CheckedState.BorderRadius = 0;
             this.checkBoxSign.CheckedState.BorderThickness = 0;
             this.checkBoxSign.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.checkBoxSign.Location = new System.Drawing.Point(265, 316);
+            this.checkBoxSign.Location = new System.Drawing.Point(265, 356);
             this.checkBoxSign.Name = "checkBoxSign";
             this.checkBoxSign.Size = new System.Drawing.Size(15, 14);
             this.checkBoxSign.TabIndex = 21;
@@ -271,7 +282,7 @@ namespace HastaTakip
             this.checkBoxSignVerify.CheckedState.BorderRadius = 0;
             this.checkBoxSignVerify.CheckedState.BorderThickness = 0;
             this.checkBoxSignVerify.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.checkBoxSignVerify.Location = new System.Drawing.Point(265, 355);
+            this.checkBoxSignVerify.Location = new System.Drawing.Point(265, 395);
             this.checkBoxSignVerify.Name = "checkBoxSignVerify";
             this.checkBoxSignVerify.Size = new System.Drawing.Size(15, 14);
             this.checkBoxSignVerify.TabIndex = 22;
@@ -288,7 +299,7 @@ namespace HastaTakip
             this.languageSwi.CheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.languageSwi.CheckedState.InnerColor = System.Drawing.Color.White;
             this.languageSwi.CheckedState.Parent = this.languageSwi;
-            this.languageSwi.Location = new System.Drawing.Point(12, 436);
+            this.languageSwi.Location = new System.Drawing.Point(12, 476);
             this.languageSwi.Name = "languageSwi";
             this.languageSwi.ShadowDecoration.Parent = this.languageSwi;
             this.languageSwi.Size = new System.Drawing.Size(30, 17);
@@ -299,6 +310,8 @@ namespace HastaTakip
             this.languageSwi.UncheckedState.InnerColor = System.Drawing.Color.White;
             this.languageSwi.UncheckedState.Parent = this.languageSwi;
             this.languageSwi.CheckedChanged += new System.EventHandler(this.languageSwi_CheckedChanged);
+            this.languageSwi.MouseLeave += new System.EventHandler(this.languageSwi_MouseLeave);
+            this.languageSwi.MouseHover += new System.EventHandler(this.languageSwi_MouseHover);
             // 
             // buttonSignfull
             // 
@@ -315,7 +328,7 @@ namespace HastaTakip
             this.buttonSignfull.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.buttonSignfull.ForeColor = System.Drawing.Color.White;
             this.buttonSignfull.HoverState.Parent = this.buttonSignfull;
-            this.buttonSignfull.Location = new System.Drawing.Point(50, 404);
+            this.buttonSignfull.Location = new System.Drawing.Point(50, 444);
             this.buttonSignfull.Name = "buttonSignfull";
             this.buttonSignfull.ShadowDecoration.Parent = this.buttonSignfull;
             this.buttonSignfull.Size = new System.Drawing.Size(110, 30);
@@ -339,7 +352,7 @@ namespace HastaTakip
             this.buttonCancel.ForeColor = System.Drawing.Color.White;
             this.buttonCancel.HoverState.FillColor = System.Drawing.Color.Red;
             this.buttonCancel.HoverState.Parent = this.buttonCancel;
-            this.buttonCancel.Location = new System.Drawing.Point(170, 404);
+            this.buttonCancel.Location = new System.Drawing.Point(170, 444);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.ShadowDecoration.Parent = this.buttonCancel;
             this.buttonCancel.Size = new System.Drawing.Size(110, 30);
@@ -365,16 +378,16 @@ namespace HastaTakip
             "İlk arkadaşınızın adı nedir?",
             "İlk işiniz nedir?"});
             this.securityBox.ItemsAppearance.Parent = this.securityBox;
-            this.securityBox.Location = new System.Drawing.Point(50, 223);
+            this.securityBox.Location = new System.Drawing.Point(50, 263);
             this.securityBox.Name = "securityBox";
             this.securityBox.ShadowDecoration.Parent = this.securityBox;
             this.securityBox.Size = new System.Drawing.Size(230, 36);
-            this.securityBox.TabIndex = 26;
+            this.securityBox.TabIndex = 5;
             // 
             // labelSecure
             // 
             this.labelSecure.AutoSize = true;
-            this.labelSecure.Location = new System.Drawing.Point(47, 207);
+            this.labelSecure.Location = new System.Drawing.Point(47, 247);
             this.labelSecure.Name = "labelSecure";
             this.labelSecure.Size = new System.Drawing.Size(90, 13);
             this.labelSecure.TabIndex = 27;
@@ -395,21 +408,172 @@ namespace HastaTakip
             this.secureAns.ForeColor = System.Drawing.Color.Black;
             this.secureAns.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.secureAns.HoverState.Parent = this.secureAns;
-            this.secureAns.Location = new System.Drawing.Point(50, 265);
+            this.secureAns.Location = new System.Drawing.Point(50, 305);
             this.secureAns.Name = "secureAns";
             this.secureAns.PasswordChar = '\0';
             this.secureAns.PlaceholderText = "";
             this.secureAns.SelectedText = "";
             this.secureAns.ShadowDecoration.Parent = this.secureAns;
             this.secureAns.Size = new System.Drawing.Size(230, 20);
-            this.secureAns.TabIndex = 4;
+            this.secureAns.TabIndex = 6;
+            // 
+            // textBoxEmail
+            // 
+            this.textBoxEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBoxEmail.DefaultText = "";
+            this.textBoxEmail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.textBoxEmail.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.textBoxEmail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.textBoxEmail.DisabledState.Parent = this.textBoxEmail;
+            this.textBoxEmail.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.textBoxEmail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.textBoxEmail.FocusedState.Parent = this.textBoxEmail;
+            this.textBoxEmail.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.textBoxEmail.ForeColor = System.Drawing.Color.Black;
+            this.textBoxEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.textBoxEmail.HoverState.Parent = this.textBoxEmail;
+            this.textBoxEmail.Location = new System.Drawing.Point(50, 214);
+            this.textBoxEmail.Name = "textBoxEmail";
+            this.textBoxEmail.PasswordChar = '\0';
+            this.textBoxEmail.PlaceholderText = "";
+            this.textBoxEmail.SelectedText = "";
+            this.textBoxEmail.ShadowDecoration.Parent = this.textBoxEmail;
+            this.textBoxEmail.Size = new System.Drawing.Size(230, 20);
+            this.textBoxEmail.TabIndex = 4;
+            // 
+            // labelEmail
+            // 
+            this.labelEmail.AutoSize = true;
+            this.labelEmail.Location = new System.Drawing.Point(47, 198);
+            this.labelEmail.Name = "labelEmail";
+            this.labelEmail.Size = new System.Drawing.Size(32, 13);
+            this.labelEmail.TabIndex = 29;
+            this.labelEmail.Text = "Email";
+            // 
+            // labelcheck
+            // 
+            this.labelcheck.AutoSize = true;
+            this.labelcheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.labelcheck.ForeColor = System.Drawing.Color.Red;
+            this.labelcheck.Location = new System.Drawing.Point(286, 97);
+            this.labelcheck.Name = "labelcheck";
+            this.labelcheck.Size = new System.Drawing.Size(20, 25);
+            this.labelcheck.TabIndex = 30;
+            this.labelcheck.Text = "*";
+            this.labelcheck.Visible = false;
+            // 
+            // labelcheck1
+            // 
+            this.labelcheck1.AutoSize = true;
+            this.labelcheck1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.labelcheck1.ForeColor = System.Drawing.Color.Red;
+            this.labelcheck1.Location = new System.Drawing.Point(286, 136);
+            this.labelcheck1.Name = "labelcheck1";
+            this.labelcheck1.Size = new System.Drawing.Size(20, 25);
+            this.labelcheck1.TabIndex = 31;
+            this.labelcheck1.Text = "*";
+            this.labelcheck1.Visible = false;
+            // 
+            // labelcheck2
+            // 
+            this.labelcheck2.AutoSize = true;
+            this.labelcheck2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.labelcheck2.ForeColor = System.Drawing.Color.Red;
+            this.labelcheck2.Location = new System.Drawing.Point(286, 175);
+            this.labelcheck2.Name = "labelcheck2";
+            this.labelcheck2.Size = new System.Drawing.Size(20, 25);
+            this.labelcheck2.TabIndex = 32;
+            this.labelcheck2.Text = "*";
+            this.labelcheck2.Visible = false;
+            // 
+            // labelcheck3
+            // 
+            this.labelcheck3.AutoSize = true;
+            this.labelcheck3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.labelcheck3.ForeColor = System.Drawing.Color.Red;
+            this.labelcheck3.Location = new System.Drawing.Point(286, 214);
+            this.labelcheck3.Name = "labelcheck3";
+            this.labelcheck3.Size = new System.Drawing.Size(20, 25);
+            this.labelcheck3.TabIndex = 33;
+            this.labelcheck3.Text = "*";
+            this.labelcheck3.Visible = false;
+            // 
+            // labelcheck5
+            // 
+            this.labelcheck5.AutoSize = true;
+            this.labelcheck5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.labelcheck5.ForeColor = System.Drawing.Color.Red;
+            this.labelcheck5.Location = new System.Drawing.Point(286, 263);
+            this.labelcheck5.Name = "labelcheck5";
+            this.labelcheck5.Size = new System.Drawing.Size(20, 25);
+            this.labelcheck5.TabIndex = 34;
+            this.labelcheck5.Text = "*";
+            this.labelcheck5.Visible = false;
+            // 
+            // labelcheck6
+            // 
+            this.labelcheck6.AutoSize = true;
+            this.labelcheck6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.labelcheck6.ForeColor = System.Drawing.Color.Red;
+            this.labelcheck6.Location = new System.Drawing.Point(286, 305);
+            this.labelcheck6.Name = "labelcheck6";
+            this.labelcheck6.Size = new System.Drawing.Size(20, 25);
+            this.labelcheck6.TabIndex = 35;
+            this.labelcheck6.Text = "*";
+            this.labelcheck6.Visible = false;
+            // 
+            // labelcheck7
+            // 
+            this.labelcheck7.AutoSize = true;
+            this.labelcheck7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.labelcheck7.ForeColor = System.Drawing.Color.Red;
+            this.labelcheck7.Location = new System.Drawing.Point(286, 353);
+            this.labelcheck7.Name = "labelcheck7";
+            this.labelcheck7.Size = new System.Drawing.Size(20, 25);
+            this.labelcheck7.TabIndex = 36;
+            this.labelcheck7.Text = "*";
+            this.labelcheck7.Visible = false;
+            // 
+            // labelcheck8
+            // 
+            this.labelcheck8.AutoSize = true;
+            this.labelcheck8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.labelcheck8.ForeColor = System.Drawing.Color.Red;
+            this.labelcheck8.Location = new System.Drawing.Point(286, 395);
+            this.labelcheck8.Name = "labelcheck8";
+            this.labelcheck8.Size = new System.Drawing.Size(20, 25);
+            this.labelcheck8.TabIndex = 37;
+            this.labelcheck8.Text = "*";
+            this.labelcheck8.Visible = false;
+            // 
+            // labelLang
+            // 
+            this.labelLang.AutoSize = true;
+            this.labelLang.BackColor = System.Drawing.Color.Transparent;
+            this.labelLang.Location = new System.Drawing.Point(12, 455);
+            this.labelLang.Name = "labelLang";
+            this.labelLang.Size = new System.Drawing.Size(55, 13);
+            this.labelLang.TabIndex = 38;
+            this.labelLang.Text = "Language";
+            this.labelLang.Visible = false;
             // 
             // Signin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(324, 460);
+            this.ClientSize = new System.Drawing.Size(324, 509);
+            this.Controls.Add(this.labelLang);
+            this.Controls.Add(this.labelcheck8);
+            this.Controls.Add(this.labelcheck7);
+            this.Controls.Add(this.labelcheck6);
+            this.Controls.Add(this.labelcheck5);
+            this.Controls.Add(this.labelcheck3);
+            this.Controls.Add(this.labelcheck2);
+            this.Controls.Add(this.labelcheck1);
+            this.Controls.Add(this.labelcheck);
+            this.Controls.Add(this.labelEmail);
+            this.Controls.Add(this.textBoxEmail);
             this.Controls.Add(this.secureAns);
             this.Controls.Add(this.labelSecure);
             this.Controls.Add(this.securityBox);
@@ -461,5 +625,16 @@ namespace HastaTakip
         private Guna.UI2.WinForms.Guna2ComboBox securityBox;
         private System.Windows.Forms.Label labelSecure;
         private Guna.UI2.WinForms.Guna2TextBox secureAns;
+        private Guna.UI2.WinForms.Guna2TextBox textBoxEmail;
+        private System.Windows.Forms.Label labelEmail;
+        private System.Windows.Forms.Label labelcheck;
+        private System.Windows.Forms.Label labelcheck1;
+        private System.Windows.Forms.Label labelcheck2;
+        private System.Windows.Forms.Label labelcheck3;
+        private System.Windows.Forms.Label labelcheck5;
+        private System.Windows.Forms.Label labelcheck6;
+        private System.Windows.Forms.Label labelcheck7;
+        private System.Windows.Forms.Label labelcheck8;
+        private System.Windows.Forms.Label labelLang;
     }
 }

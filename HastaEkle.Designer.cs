@@ -33,18 +33,21 @@ namespace HastaTakip
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HastaEkle));
             this.labelHastaEkName = new System.Windows.Forms.Label();
             this.labelHastaEkSurname = new System.Windows.Forms.Label();
-            this.labelHastaEkId = new System.Windows.Forms.Label();
             this.labelHastaEkEmail = new System.Windows.Forms.Label();
             this.checkPicture = new System.Windows.Forms.PictureBox();
             this.labelRegister = new System.Windows.Forms.Label();
             this.timerNum = new System.Windows.Forms.Timer(this.components);
             this.hastaEkName = new Guna.UI2.WinForms.Guna2TextBox();
             this.hastaEkSurname = new Guna.UI2.WinForms.Guna2TextBox();
-            this.hastaEkId = new Guna.UI2.WinForms.Guna2TextBox();
             this.hastaEkEmail = new Guna.UI2.WinForms.Guna2TextBox();
             this.buttonHasCancel = new Guna.UI2.WinForms.Guna2Button();
             this.buttonSave = new Guna.UI2.WinForms.Guna2Button();
-            this.languageSwi = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.labelN = new System.Windows.Forms.Label();
+            this.labelS = new System.Windows.Forms.Label();
+            this.labelE = new System.Windows.Forms.Label();
+            this.labelI = new System.Windows.Forms.Label();
+            this.hastaEkId = new Guna.UI2.WinForms.Guna2TextBox();
+            this.labelHastaEkId = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.checkPicture)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,15 +68,6 @@ namespace HastaTakip
             this.labelHastaEkSurname.Size = new System.Drawing.Size(49, 13);
             this.labelHastaEkSurname.TabIndex = 3;
             this.labelHastaEkSurname.Text = "Surname";
-            // 
-            // labelHastaEkId
-            // 
-            this.labelHastaEkId.AutoSize = true;
-            this.labelHastaEkId.Location = new System.Drawing.Point(109, 128);
-            this.labelHastaEkId.Name = "labelHastaEkId";
-            this.labelHastaEkId.Size = new System.Drawing.Size(107, 13);
-            this.labelHastaEkId.TabIndex = 5;
-            this.labelHastaEkId.Text = "Identification Number";
             // 
             // labelHastaEkEmail
             // 
@@ -134,7 +128,7 @@ namespace HastaTakip
             this.hastaEkName.SelectedText = "";
             this.hastaEkName.ShadowDecoration.Parent = this.hastaEkName;
             this.hastaEkName.Size = new System.Drawing.Size(163, 20);
-            this.hastaEkName.TabIndex = 18;
+            this.hastaEkName.TabIndex = 1;
             // 
             // hastaEkSurname
             // 
@@ -158,31 +152,7 @@ namespace HastaTakip
             this.hastaEkSurname.SelectedText = "";
             this.hastaEkSurname.ShadowDecoration.Parent = this.hastaEkSurname;
             this.hastaEkSurname.Size = new System.Drawing.Size(163, 20);
-            this.hastaEkSurname.TabIndex = 19;
-            // 
-            // hastaEkId
-            // 
-            this.hastaEkId.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.hastaEkId.DefaultText = "";
-            this.hastaEkId.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.hastaEkId.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.hastaEkId.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.hastaEkId.DisabledState.Parent = this.hastaEkId;
-            this.hastaEkId.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.hastaEkId.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.hastaEkId.FocusedState.Parent = this.hastaEkId;
-            this.hastaEkId.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.hastaEkId.ForeColor = System.Drawing.Color.Black;
-            this.hastaEkId.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.hastaEkId.HoverState.Parent = this.hastaEkId;
-            this.hastaEkId.Location = new System.Drawing.Point(112, 144);
-            this.hastaEkId.Name = "hastaEkId";
-            this.hastaEkId.PasswordChar = '\0';
-            this.hastaEkId.PlaceholderText = "";
-            this.hastaEkId.SelectedText = "";
-            this.hastaEkId.ShadowDecoration.Parent = this.hastaEkId;
-            this.hastaEkId.Size = new System.Drawing.Size(163, 20);
-            this.hastaEkId.TabIndex = 20;
+            this.hastaEkSurname.TabIndex = 2;
             // 
             // hastaEkEmail
             // 
@@ -206,7 +176,7 @@ namespace HastaTakip
             this.hastaEkEmail.SelectedText = "";
             this.hastaEkEmail.ShadowDecoration.Parent = this.hastaEkEmail;
             this.hastaEkEmail.Size = new System.Drawing.Size(163, 20);
-            this.hastaEkEmail.TabIndex = 21;
+            this.hastaEkEmail.TabIndex = 4;
             // 
             // buttonHasCancel
             // 
@@ -255,25 +225,86 @@ namespace HastaTakip
             this.buttonSave.Text = "Save";
             this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click);
             // 
-            // languageSwi
+            // labelN
             // 
-            this.languageSwi.Animated = true;
-            this.languageSwi.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.languageSwi.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.languageSwi.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.languageSwi.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.languageSwi.CheckedState.Parent = this.languageSwi;
-            this.languageSwi.Location = new System.Drawing.Point(12, 260);
-            this.languageSwi.Name = "languageSwi";
-            this.languageSwi.ShadowDecoration.Parent = this.languageSwi;
-            this.languageSwi.Size = new System.Drawing.Size(35, 17);
-            this.languageSwi.TabIndex = 24;
-            this.languageSwi.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.languageSwi.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.languageSwi.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.languageSwi.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.languageSwi.UncheckedState.Parent = this.languageSwi;
-            this.languageSwi.CheckedChanged += new System.EventHandler(this.languageSwi_CheckedChanged);
+            this.labelN.AutoSize = true;
+            this.labelN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.labelN.ForeColor = System.Drawing.Color.Red;
+            this.labelN.Location = new System.Drawing.Point(281, 54);
+            this.labelN.Name = "labelN";
+            this.labelN.Size = new System.Drawing.Size(15, 20);
+            this.labelN.TabIndex = 25;
+            this.labelN.Text = "*";
+            this.labelN.Visible = false;
+            // 
+            // labelS
+            // 
+            this.labelS.AutoSize = true;
+            this.labelS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.labelS.ForeColor = System.Drawing.Color.Red;
+            this.labelS.Location = new System.Drawing.Point(281, 93);
+            this.labelS.Name = "labelS";
+            this.labelS.Size = new System.Drawing.Size(15, 20);
+            this.labelS.TabIndex = 26;
+            this.labelS.Text = "*";
+            this.labelS.Visible = false;
+            // 
+            // labelE
+            // 
+            this.labelE.AutoSize = true;
+            this.labelE.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.labelE.ForeColor = System.Drawing.Color.Red;
+            this.labelE.Location = new System.Drawing.Point(281, 191);
+            this.labelE.Name = "labelE";
+            this.labelE.Size = new System.Drawing.Size(15, 20);
+            this.labelE.TabIndex = 28;
+            this.labelE.Text = "*";
+            this.labelE.Visible = false;
+            // 
+            // labelI
+            // 
+            this.labelI.AutoSize = true;
+            this.labelI.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.labelI.ForeColor = System.Drawing.Color.Red;
+            this.labelI.Location = new System.Drawing.Point(279, 144);
+            this.labelI.Name = "labelI";
+            this.labelI.Size = new System.Drawing.Size(15, 20);
+            this.labelI.TabIndex = 27;
+            this.labelI.Text = "*";
+            this.labelI.Visible = false;
+            // 
+            // hastaEkId
+            // 
+            this.hastaEkId.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.hastaEkId.DefaultText = "";
+            this.hastaEkId.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.hastaEkId.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.hastaEkId.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.hastaEkId.DisabledState.Parent = this.hastaEkId;
+            this.hastaEkId.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.hastaEkId.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.hastaEkId.FocusedState.Parent = this.hastaEkId;
+            this.hastaEkId.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.hastaEkId.ForeColor = System.Drawing.Color.Black;
+            this.hastaEkId.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.hastaEkId.HoverState.Parent = this.hastaEkId;
+            this.hastaEkId.Location = new System.Drawing.Point(112, 144);
+            this.hastaEkId.Name = "hastaEkId";
+            this.hastaEkId.PasswordChar = '\0';
+            this.hastaEkId.PlaceholderText = "";
+            this.hastaEkId.SelectedText = "";
+            this.hastaEkId.ShadowDecoration.Parent = this.hastaEkId;
+            this.hastaEkId.Size = new System.Drawing.Size(163, 20);
+            this.hastaEkId.TabIndex = 3;
+            // 
+            // labelHastaEkId
+            // 
+            this.labelHastaEkId.AutoSize = true;
+            this.labelHastaEkId.Location = new System.Drawing.Point(109, 128);
+            this.labelHastaEkId.Name = "labelHastaEkId";
+            this.labelHastaEkId.Size = new System.Drawing.Size(107, 13);
+            this.labelHastaEkId.TabIndex = 5;
+            this.labelHastaEkId.Text = "Identification Number";
             // 
             // HastaEkle
             // 
@@ -281,7 +312,10 @@ namespace HastaTakip
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(400, 289);
-            this.Controls.Add(this.languageSwi);
+            this.Controls.Add(this.labelE);
+            this.Controls.Add(this.labelI);
+            this.Controls.Add(this.labelS);
+            this.Controls.Add(this.labelN);
             this.Controls.Add(this.buttonSave);
             this.Controls.Add(this.buttonHasCancel);
             this.Controls.Add(this.hastaEkEmail);
@@ -298,6 +332,7 @@ namespace HastaTakip
             this.Name = "HastaEkle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HastaEkle";
+            this.Load += new System.EventHandler(this.HastaEkle_Load);
             ((System.ComponentModel.ISupportInitialize)(this.checkPicture)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -307,17 +342,20 @@ namespace HastaTakip
         #endregion
         private System.Windows.Forms.Label labelHastaEkName;
         private System.Windows.Forms.Label labelHastaEkSurname;
-        private System.Windows.Forms.Label labelHastaEkId;
         private System.Windows.Forms.Label labelHastaEkEmail;
         private System.Windows.Forms.PictureBox checkPicture;
         private System.Windows.Forms.Label labelRegister;
         private System.Windows.Forms.Timer timerNum;
         private Guna.UI2.WinForms.Guna2TextBox hastaEkName;
         private Guna.UI2.WinForms.Guna2TextBox hastaEkSurname;
-        private Guna.UI2.WinForms.Guna2TextBox hastaEkId;
         private Guna.UI2.WinForms.Guna2TextBox hastaEkEmail;
         private Guna.UI2.WinForms.Guna2Button buttonHasCancel;
         private Guna.UI2.WinForms.Guna2Button buttonSave;
-        private Guna.UI2.WinForms.Guna2ToggleSwitch languageSwi;
+        private System.Windows.Forms.Label labelN;
+        private System.Windows.Forms.Label labelS;
+        private System.Windows.Forms.Label labelE;
+        private System.Windows.Forms.Label labelI;
+        private Guna.UI2.WinForms.Guna2TextBox hastaEkId;
+        private System.Windows.Forms.Label labelHastaEkId;
     }
 }

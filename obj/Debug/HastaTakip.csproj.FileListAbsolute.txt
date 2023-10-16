@@ -1,0 +1,121 @@
+C:\Users\dell\source\repos\HastaTakip\bin\Debug\HastaTakip.exe.config
+C:\Users\dell\source\repos\HastaTakip\bin\Debug\HastaTakip.exe
+C:\Users\dell\source\repos\HastaTakip\bin\Debug\HastaTakip.pdb
+C:\Users\dell\source\repos\HastaTakip\obj\Debug\HastaTakip.Giris.resources
+C:\Users\dell\source\repos\HastaTakip\obj\Debug\HastaTakip.Properties.Resources.resources
+C:\Users\dell\source\repos\HastaTakip\obj\Debug\HastaTakip.csproj.GenerateResource.cache
+C:\Users\dell\source\repos\HastaTakip\obj\Debug\HastaTakip.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\HastaTakip\obj\Debug\HastaTakip.exe
+C:\Users\dell\source\repos\HastaTakip\obj\Debug\HastaTakip.pdb
+C:\Users\dell\source\repos\HastaTakip\obj\Debug\HastaTakip.hatalıGiris.resources
+C:\Users\dell\source\repos\HastaTakip\obj\Debug\HastaTakip.Signin.resources
+C:\Users\dell\source\repos\HastaTakip\obj\Debug\HastaTakip.Anasayfa.resources
+C:\Users\dell\source\repos\hastatakip\bin\Debug\CircularProgressBar.dll
+C:\Users\dell\source\repos\hastatakip\bin\Debug\ShellProgressBar.dll
+C:\Users\dell\source\repos\hastatakip\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dell\source\repos\hastatakip\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\dell\source\repos\hastatakip\bin\Debug\WinFormAnimation.dll
+C:\Users\dell\source\repos\hastatakip\bin\Debug\CircularProgressBar.xml
+C:\Users\dell\source\repos\hastatakip\bin\Debug\ShellProgressBar.xml
+C:\Users\dell\source\repos\hastatakip\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dell\source\repos\hastatakip\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\dell\source\repos\hastatakip\obj\Debug\HastaTakip.csproj.AssemblyReference.cache
+C:\Users\dell\source\repos\hastatakip\obj\Debug\HastaTakip.cikis.resources
+C:\Users\dell\source\repos\hastatakip\obj\Debug\HastaTakip.csproj.CopyComplete
+C:\Users\dell\source\repos\hastatakip\bin\Debug\Guna.UI2.dll
+C:\Users\dell\source\repos\hastatakip\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\dell\source\repos\hastatakip\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\dell\source\repos\hastatakip\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\dell\source\repos\hastatakip\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\dell\source\repos\hastatakip\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\dell\source\repos\hastatakip\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\dell\source\repos\hastatakip\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\dell\source\repos\hastatakip\obj\Debug\HastaTakip.loading.resources
+C:\Users\dell\source\repos\hastatakip\obj\Debug\XamlC.stamp
+C:\Users\dell\source\repos\hastatakip\obj\Debug\HastaTakip.HastaEkle.resources
+C:\Users\dell\source\repos\hastatakip\obj\Debug\HastaTakip.HastaSec.resources
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\HastaTakip.exe.config
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\HastaTakip.exe
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\HastaTakip.pdb
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\CircularProgressBar.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Guna.UI2.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\ShellProgressBar.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\WinFormAnimation.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\CircularProgressBar.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\ShellProgressBar.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\obj\Debug\HastaTakip.csproj.AssemblyReference.cache
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\obj\Debug\HastaTakip.Anasayfa.resources
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\obj\Debug\HastaTakip.cikis.resources
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\obj\Debug\HastaTakip.Giris.resources
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\obj\Debug\HastaTakip.HastaEkle.resources
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\obj\Debug\HastaTakip.HastaSec.resources
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\obj\Debug\HastaTakip.hatalıGiris.resources
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\obj\Debug\HastaTakip.loading.resources
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\obj\Debug\HastaTakip.Properties.Resources.resources
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\obj\Debug\HastaTakip.Signin.resources
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\obj\Debug\HastaTakip.csproj.GenerateResource.cache
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\obj\Debug\HastaTakip.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\obj\Debug\XamlC.stamp
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\obj\Debug\HastaTakip.csproj.CopyComplete
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\obj\Debug\HastaTakip.exe
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\obj\Debug\HastaTakip.pdb
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\obj\Debug\HastaTakip.AdminPanel.resources
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\obj\Debug\HastaTakip.Panelcontent.resources
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\System.Buffers.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\System.Collections.Immutable.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\System.Memory.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\System.Buffers.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\System.Collections.Immutable.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\System.Memory.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\dell\Desktop\Görsel Programlam Proje\HastaTakip\bin\Debug\System.Threading.Tasks.Extensions.xml

@@ -3,7 +3,7 @@ This is a patient follow-up system project for visual programming class
 
 
 
-![Giris](https://github.com/Kutaydl/HastaTakip/assets/77621119/fb2f044c-2363-4cc2-ac57-76979326faa6)
+![Giris](https://github.com/Kutaydl/HastaTakip/assets/77621119/fb2f044c-2363-4cc2-ac57-76979326faa6)\n
 ![çıkış](https://github.com/Kutaydl/HastaTakip/assets/77621119/4c8cf45f-c22e-44fa-8cc1-5b9216ccb43a)
 ![Başlangıç](https://github.com/Kutaydl/HastaTakip/assets/77621119/fea04fa7-6a35-4a55-aac8-50d1696c8886)
 ![anasayfa](https://github.com/Kutaydl/HastaTakip/assets/77621119/3e1a4960-96fd-4e45-a139-842499a7f130)
